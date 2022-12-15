@@ -1,0 +1,127 @@
+body{
+  background-image: url(./img/background);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+  nav{
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 70px;
+      
+  }
+  .menue{
+      display: flex;
+      align-items: center;
+  }
+  a{ 
+      text-decoration: none;
+      color: aliceblue;
+      margin: 10px;
+      margin-top: 10px;
+  }
+  .logo{
+      width: 60px;
+  }
+  .logo img{
+      width: 100%;
+  }
+  .content{
+      color: white;
+      width: 40%;
+      margin: 4%;
+      
+  }
+  input{
+      border-radius: 50px;
+      font-size: 1em;
+      background-color: rgb(242, 242, 245);
+      padding: 10px 60px;
+  }
+  .box{
+      display: flex;
+      flex-wrap: wrap;
+      width: 44%;
+      margin: 3%;
+  }
+  #box1{
+      width: 40%;
+  background-image: url(./img/1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  height: 280px;
+  margin: 10px;
+  color: white;
+  }
+  #box2{
+      width: 40%;
+      height: 280px;
+      background-image: url(./img/3);
+      border-radius: 10px;
+      margin: 10px;
+      background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  }
+  #box3{
+      width: 40%;
+      height: 280px;
+      background-image: url(./img/3.jpeg);
+      border-radius: 10px;
+      margin: 10px;
+      background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  }
+  #box4{
+      width: 40%;
+      height: 280px;
+      background-image: url(./img/4);
+      border-radius: 10px;
+      margin: 10px;
+      background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  }
+  #container{
+      display: flex;
+      flex-wrap: wrap;
+    
+  }
+  h1{
+      font-size: 7em;
+  }
+  .hover:hover{
+      transform:translateY(-10px)
+  }
+  @media screen and (max-width: 856px){
+      .box
+      {
+          display: block;
+          width: 100%;
+          margin: auto;
+      }
+      #box1, #box2, #box3, #box4{
+          width: 100%;
+      }
+      #container{
+          display: block;
+        
+      }
+      .content{
+          color: white;
+          width: 100%;
+          margin: 4%;
+          
+      }
+      h1{
+          font-size: 2em;
+      }
+      nav{
+          display: block;
+      }
+      
+  }
+  Footer
+  
